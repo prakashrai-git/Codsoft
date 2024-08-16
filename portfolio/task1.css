@@ -1,0 +1,686 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(-45deg, #002147, #282C35, #100c08, #3b3c36);
+    height: 5980px;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+
+}
+
+.navbar li a {
+    display: inline-block;
+    font-size: 18px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 25px;
+    margin-left: 242px;
+    transition: 0.3s;
+}
+
+.navbar li a:hover {
+    color: lightsalmon;
+    text-decoration: underline;
+}
+.image1 {
+   padding-left: 1000px;
+   padding-top: 300px;
+
+}
+.image1 img{
+    border-radius: 50%;
+    border: 7px solid whitesmoke;
+    width: 330px;
+    height: 300px;
+}
+
+#home {
+    position: relative;
+    width: 80%;
+    justify-content: space-between;
+    height: 426px;
+    margin-left: 250px;
+    padding-top: 40px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.home-content {
+    font-size: 30px;
+     padding-bottom: 1000px;
+}
+
+h4 {
+    color: grey;
+    padding-bottom: 10px;
+}
+
+.home-content h1 {
+    color: lightsalmon;
+    margin-top: 25px;
+    font-size: 50px;
+}
+
+h3 {
+    margin-top: 10px;
+    color: lightcoral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 10;
+}
+
+
+#about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    padding-top: 300px;
+}
+
+.about-img img {
+    padding-top: 50px;
+    padding-left: 86px;
+    max-width: 400px;
+    height: auto;
+    width: 100%;
+}
+
+.about-text h2 {
+    font-size: 45px;
+    color: aliceblue;
+    text-decoration: underline;
+    padding-bottom: 40px;
+}
+
+.about-text {
+    font-size: 20px;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 30px;
+}
+.download-btn{
+    position: absolute;
+    background-color: lightsalmon;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-top: 450px;
+    margin-left: 1050px;
+
+}
+.download-btn:hover{
+    background-color: rgb(161, 42, 42);
+}
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#skill h1 {
+    text-align: center;
+    font-weight: 50;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+#skill h3 {
+    margin: 5px;
+}
+
+#skill {
+    width: 500px;
+    margin: 300px auto;
+    color: #fff;
+    padding: 60px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#skill li {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.bar {
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.bar:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+}
+
+.HTML {
+    width: 90%;
+    animation: HTML 3s;
+}
+
+.CSS {
+    width: 87%;
+    animation: CSS 3s;
+}
+
+.JavaScript {
+    width: 70%;
+    animation: JavaScript 3s;
+}
+
+.Python {
+    width: 85%;
+    animation: Python 3s;
+}
+
+.C {
+    width: 65%;
+    animation: C 3s;
+}
+
+@keyframes HTML {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes CSS {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 87%;
+    }
+}
+
+@keyframes JavaScript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes Python {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes C {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.container .progress {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    color: #fff;
+    background: #444 linear-gradient(to right, transparent 50%, var(--clr)0);
+}
+
+.container .progress h3 {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.container .progress h3 span {
+    font-size: 0.65em;
+    font-weight: 400;
+}
+
+.container .progress h4 {
+    position: absolute;
+    top: 112%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-weight: 500;
+    color: var(--clr);
+    text-transform: uppercase;
+}
+
+.container .progress::before {
+    content: ' ';
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    border-radius: 0 100% 100% 0/50%;
+}
+
+.container .progress::after {
+    content: ' ';
+    position: absolute;
+    inset: 10px;
+    border-radius: 50%;
+    background: black;
+    opacity: 0;
+}
+
+.container .progress::before {
+    background: var(--clr);
+    transform: rotate(calc(((var(--i) - 50) * 0.01turn)));
+}
+
+.heading h1 {
+    position: absolute;
+    color: #bb9383;
+    padding-top: 270px;
+    padding-left: 157px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.slip {
+    padding: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    position: relative;
+    margin: 100px;
+    margin-top: 400px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 265px;
+    transition: 0.3s ease-out;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+}
+
+.card .imgbox {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.card .imgbox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    display: block;
+    transition: 0.5s;
+}
+
+.card .content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    padding: 40px;
+    transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.card:hover .content {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgb(27, 27, 27, .5);
+    color: white;
+}
+
+.content p {
+    margin: 10px 0 0;
+    padding: 1em 1em;
+    transform: translateY(2em);
+    transition: 0.3s;
+    text-align: justify;
+    opacity: 0;
+}
+
+.card:hover .content p {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.content a {
+    padding: 50px;
+}
+
+.content h2 {
+    text-align: center;
+    color: lightsalmon;
+    font-weight: 200;
+}
+
+.card:hover {
+    box-shadow: 0 0 5em rgba(0, 0, 0, 0.4);
+}
+
+.heading1 {
+    color: lightsalmon;
+    padding-left: 180px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.certificate {
+    padding-bottom: 135px;
+    width: 200px;
+    display: flex;
+
+}
+
+.sec {
+    position: relative;
+    margin: 160px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 265px;
+    margin-right: 50px;
+    transition: 0.3s ease-out;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+}
+
+.sec .imgbox {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.sec .imgbox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    display: block;
+    transition: 0.5s;
+}
+
+.sec .content1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    padding: 40px;
+    transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.sec:hover .content1 {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgb(27, 27, 27, .5);
+    color: white;
+}
+
+.content1 p {
+    margin: 10px 0 0;
+    padding: 1em 1em;
+    transform: translateY(2em);
+    transition: 0.3s;
+    text-align: justify;
+    opacity: 0;
+}
+
+.sec:hover .content1 p {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.content1 a {
+    padding: 50px;
+}
+
+.content1 h2 {
+    text-align: center;
+    color: lightsalmon;
+    font-weight: 200;
+}
+
+.sec:hover {
+    box-shadow: 0 0 5em rgba(0, 0, 0, 0.4);
+}
+
+#contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#contact .content3{
+    max-width: 800px;
+    text-align: center;
+}
+#contact .content3 h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(207, 163, 81);
+    margin-bottom: 90px;
+    padding-right: 50px;
+}
+#contact .content3 p{
+    font-weight: 300;
+    color: #ffff;
+}
+.cone{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.cone .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.cone .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    font-size: 50px;
+}
+.cone .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.cone .contactinfo .box .text h3{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: rgb(217, 255, 0);
+     font-size: 24px;
+    font-weight: 500;
+}
+.cone .contactinfo .box .text p{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-size: 18px ;
+    font-weight: 300;
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+    color: #ff0000;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: lightsalmon;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+.contactForm .inputBox input:hover{
+    color: rgb(202, 65, 20);
+}
+.socialicon ul{
+    position: absolute;
+    display: flex; 
+   padding-top: 190px;
+}
+.socialicon ul li{
+    list-style: none;
+    margin:  4px;
+    padding: 40px;
+    /* font-size: 30px; */
+}
+.socialicon ul li .fa-brands{
+    font-size: 25px;
+    line-height: 60px;
+    transition: 0.3s;
+    color: #000;
+}
+.socialicon ul li a :hover{
+    color: #fff;
+    transition: 0.1s;
+}
+.socialicon ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3s;
+}
+.socialicon ul li a:hover{
+    transform: translate(0,-10%);
+}
+.socialicon ul li:nth-child(1) a:hover{
+  background-color: rgb(247,17,208);
+}
+.socialicon ul li:nth-child(2) a:hover{
+    background-color: rgb(72,255,0);
+  }
+  .socialicon ul li:nth-child(3) a:hover{
+    background-color: rgb(113, 97, 97);
+  }
+  .socialicon ul li:nth-child(4) a:hover{
+    background-color: rgb(0,102,255);
+  }
+  .para p{
+    color:wheat;
+    margin-top: 165px;
+    margin-left: 200px;
+    font-size: 18px;
+  }
